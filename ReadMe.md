@@ -15,7 +15,7 @@ The child directories for modules and samples will need a CMakeLists.txt file. T
 ## Code
 
 ### Libraries and Classes
-Classes and Libraries developed by us should serve a specific purpose. A table should just be a table not the whole kitchen.
+Classes and Libraries developed by us should serve a specific purpose. A table should just be a table not the whole kitchen. The standard library should be used whenever possible. (There is almost no reason to use an array as opposed to a vector)
 
 ### Functions
 Functions should be short and sweet. This will of course vary depending on the function but if you feel the function is getting long then splitting the function into sub functions is a simple way to correct this. In this way we keep the code readable which is the objective here. This is a complicated project, lets not have the code make our lives harder
